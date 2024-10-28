@@ -1,0 +1,108 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Rubik Wet Paint";
+  background-color: #f0f4f8;
+  margin-inline: auto;
+
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+ul {
+  padding: 0;
+}
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+h1 {
+  color:  darkred;
+  width: 516px;
+  margin-inline: auto;
+  font-size: 48px;
+}
+
+
+#root, #__next {
+  isolation: isolate;
+}
+.class-list {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.student-group-male , .student-group-female {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+}
+h3 {
+  font-size: 1.3em;
+  margin-bottom: 15px;
+  color: #333;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 8px;
+}
+
+.student-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.student-item {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 10px;
+  text-align: left;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.student-item h4 {
+  font-size: 1.2em;
+  color: rgb(66, 2, 2);
+  margin: 0 0 8px;
+}
+
+.student-item p {
+  margin: 4px 0;
+  font-size: 0.9em;
+  color: rgb(63, 29, 29);
+}
+
+.student-item:hover {
+  background-color: #e1e8f0;
+}
+li {
+  list-style: none;
+}
+
